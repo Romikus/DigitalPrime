@@ -1,0 +1,18 @@
+.title {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: normal;
+  letter-spacing: 0.02em;
+
+  &--align-center {
+    text-align: center;
+  }
+
+  &--align-left {
+    text-align: left;
+  }
+
+  &--ls-normal {
+    letter-spacing: normal;
+  }
+}

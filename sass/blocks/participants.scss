@@ -1,0 +1,46 @@
+.participants {
+  text-align: center;
+  color: $body-font-color;
+
+  background-color: $bg-subcolor;
+}
+
+.participants__content {
+  margin: 0 120px;
+  padding-top: 50px;
+  padding-bottom: 58px;
+}
+
+.participants__title {
+  margin-top:  0;
+  margin-bottom: 49px;
+  margin-left: 268px;
+  margin-right: 268px;
+}
+
+.participants__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.participants__item {
+  width: 285px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.participants__button {
+  display: inline-block;
+  width: 290px;
+  margin-left: -2px;
+  padding: 15px;
+  padding-right: 26px;
+
+
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}

@@ -1,0 +1,83 @@
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  min-height: 100px;
+}
+
+.main-nav__section {
+  display: flex;
+  align-items: center;
+  min-height: 100px;
+
+  &--left {
+    justify-content: flex-start;
+    flex-grow: 1;
+  }
+
+  &--right {
+    justify-content: flex-end;
+    flex-shrink: 0;
+  }
+}
+
+.main-nav__logo {
+
+}
+
+.main-nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 10px 0;
+
+  list-style: none;
+}
+
+.main-nav__item {
+  margin-right: 28px;
+  padding: 10px 0;
+}
+
+.main-nav__link {
+  text-decoration: none;
+  color: $body-font-color;
+
+  &:hover {
+    color: #ccc;
+  }
+
+  &--font-s {
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.01em;
+  }
+
+  &--font-m {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+.main-nav__support {
+  margin-right: 50px;
+  padding: 10px 0;
+}
+
+.main-nav__login {
+  display: block;
+  width: 140px;
+  height: 42px;
+  padding: 14px 10px;
+
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.main-nav__copyright {
+  font-size: 12px;
+  line-height: 14px;
+  color: #808080;
+}

@@ -1,0 +1,46 @@
+.btn {
+  box-sizing: border-box;
+
+  text-align: center;
+  text-decoration: none;
+
+  border: 1px solid transparent;
+  border-radius: 2px;
+
+  &--clr1 {
+    color: $dominant-color;
+
+    border-color: $dominant-color;
+    background-color: transparent;
+
+    &:hover {
+      color: #fff;
+
+      background-color: $dominant-color;
+    }
+  }
+
+  &--clr2 {
+    color: #fff;
+
+    border-color: $dominant-color;
+    background-color: $dominant-color;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  &--clr3 {
+    color: #fff;
+
+    border-color: #fff;
+    background-color: transparent;
+
+    &:hover {
+      color: #ccc;
+
+      border-color: #ccc;
+    }
+  }
+}

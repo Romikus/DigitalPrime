@@ -1,0 +1,83 @@
+.partners {
+  color: $body-font-color;
+
+  background-color: $bg-subcolor;
+}
+
+.partners__content {
+  margin: 0 120px;
+  padding-top: 40px;
+  padding-bottom: 19px;
+}
+
+.partners__title {
+  margin: 0;
+  margin-bottom: 48px;
+}
+
+.partners__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0 100px;
+
+  list-style: none;
+}
+
+.partners__item {
+  width: 180px;
+  margin: 0 5px;
+  margin-bottom: 32px;
+
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.partners__logo {
+  display: block;
+
+  &--rostel {
+    margin-left: -14px;
+  }
+
+  &--ford {
+    margin-left: 14px;
+  }
+
+  &--microsoft {
+    margin-left: 14px;
+  }
+
+  &--bosch {
+    margin-bottom: 16px;
+    margin-left: -14px;
+  }
+
+  &--cybergame {
+    margin-bottom: 16px;
+  }
+
+  &--adidas {
+    margin-left: 14px;
+  }
+
+  &--itmo {
+    margin-left: 10px;
+  }
+
+  &--pentax {
+    margin-left: -14px;
+  }
+
+  &--dg {
+    margin-left: 16px;
+  }
+
+  &--genius {
+    margin-left: 10px;
+  }
+}

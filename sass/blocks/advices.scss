@@ -1,0 +1,53 @@
+.advices {
+  color: $body-font-color;
+
+  background-color: $bg-color;
+}
+
+.advices__content {
+  margin: 0 120px;
+}
+
+.advices__slider {
+  padding: 0 152px;
+}
+
+.advices__list {
+  width: calc(100%*3);
+  min-height: 580px;
+}
+
+.advices__item {
+  width: calc(100%/3);
+}
+
+.advices__item--tinkov {
+  padding-bottom: 20px;
+
+  background: url(../img/tinkov@1x.png) no-repeat 92.5% 73px;
+
+  @media #{$retina} {
+    background-image: url(../img/tinkov@2x.png);
+    background-size: 295px auto;
+  }
+}
+
+.advices__author {
+  position: relative;
+
+  display: block;
+  margin-left: -2px;
+  margin-bottom: 23px;
+  padding-top: 177px;
+  padding-bottom: 22px;
+
+  @include line();
+}
+
+.advices__text {
+  width: 445px;
+  margin-left: 1px;
+
+  font-size: 16px;
+  line-height: 26px;
+}

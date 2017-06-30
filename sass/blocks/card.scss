@@ -1,0 +1,72 @@
+.card {
+  text-align: center;
+
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.card__link {
+  position: relative;
+
+  display: block;
+
+  text-decoration: none;
+  color: $body-font-color;
+}
+
+.card__photo {
+  width: 285px;
+  height: 310px;
+
+  vertical-align: bottom;
+}
+
+.card__person {
+  padding: 0 28px;
+  padding-top: 21px;
+  padding-bottom: 24px;
+
+  text-align: left;
+
+  border: 1px solid transparent;
+  border-top: 0;
+  border-radius: 0 0 3px 3px;
+  background-color: $bg-color;
+}
+
+.card__person-name {
+  display: block;
+  margin-bottom: 6px;
+
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: normal;
+  letter-spacing: -0.02em;
+}
+
+.card__person-status {
+  display: block;
+
+  font-size: 14px;
+  line-height: 18px;
+  color: #808080;
+}
+
+.card__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+
+  border-radius: 3px;
+  background: #000;
+  opacity: 0;
+
+  transition: 0.3s ease-in;
+
+  &:hover {
+    opacity: 0.4;
+  }
+}
+

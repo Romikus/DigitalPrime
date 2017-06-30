@@ -1,0 +1,20 @@
+.logo {
+  display: block;
+
+  &--pos-1 {
+    margin-top: 8px;
+    margin-right: 48px;
+    margin-left: 2px;
+  }
+
+  &--pos-2 {
+    margin-top: 0;
+    margin-right: 58px;
+    margin-left: 2px;
+  }
+
+}
+
+.logo__img {
+  vertical-align: bottom;
+}

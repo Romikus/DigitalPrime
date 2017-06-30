@@ -1,0 +1,22 @@
+@mixin clearfix() {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin line() {
+  &::after {
+    content: '';
+    position: absolute;
+    left: 1px;
+    bottom: 0;
+    z-index: 5;
+
+    width: 37px;
+    height: 3px;
+
+    background-color: $dominant-color;
+  }
+}

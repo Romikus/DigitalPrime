@@ -1,0 +1,42 @@
+.support {
+  display: flex;
+  align-items: center;
+}
+
+.support__items {
+  display: block;
+  width: 27px;
+  height: 27px;
+
+  font-size: 0;
+
+  &--call {
+    margin-right: 10px;
+
+    background: url(../img/icon-phone@1x.png) no-repeat 50% 50%;
+
+    @media #{$retina} {
+      background-image: url(../img/icon-phone@2x.png);
+      background-size: 27px auto;
+    }
+  }
+
+  &--address {
+    margin-right: 9px;
+
+    background: url(../img/icon-address@1x.png) no-repeat 50% 50%;
+
+    @media #{$retina} {
+      background-image: url(../img/icon-address@2x.png);
+      background-size: 27px auto;
+    }
+  }
+}
+
+.support__phone-number {
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: -0.030em;
+}
+
+
